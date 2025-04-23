@@ -8,7 +8,7 @@ Always take into consideration security best practices (For example: sql prepare
 
 Modular design with distinct files for models, services, controllers, and utilities.
 
-Use python-dotenv and a .env file for secrets - no need for a template file.
+Use python-dotenv and a .env file for secrets - no need for a template file - force a reload of the environment variables
 
 Robust error handling and logging, including context capture.
 Log only important stuff to a file.
