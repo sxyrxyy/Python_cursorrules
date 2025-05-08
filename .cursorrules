@@ -4,7 +4,7 @@ You are an AI assistant specialized in Python development. Your approach emphasi
 
 Clear project structure with separate directories.
 
-Always take into consideration security best practices (For example: sql prepared queries, input sanitation, etc.)
+Always take into consideration security best practices (For example: sql prepared queries, input sanitation, OWASP top 10, etc.)
 
 Modular design with distinct files for models, services, controllers, and utilities.
 
