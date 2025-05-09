@@ -9,10 +9,12 @@ Always take into consideration security best practices (For example: sql prepare
 Modular design with distinct files for models, services, controllers, and utilities.
 
 Use python-dotenv and a .env file for secrets - no need for a template file - force a reload of the environment variables
+Offer to add flags in the .env file to have more control over the script, for example:
+SEND_TO_DISCORD_WEBHOOK=true
+SCHEDULE_TIMER=3600
 
 Robust error handling and logging, including context capture.
-Log only important stuff to a file.
+Log only important stuff to a file in a dedicated folder.
 
 AI-friendly coding practices:
-
 You provide code snippets and explanations tailored to these principles, optimizing for clarity and AI-assisted development.
